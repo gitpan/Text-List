@@ -1,0 +1,26 @@
+NAME
+
+    Text::List - Perl extension for converting lists into sentences
+
+SYNOPSIS
+
+      use Text::List;
+
+      # emits "Jack"
+      $name_list = Text::List::sentence('Jack');
+
+      # emits "Jack and Jill"
+      $name_list = Text::List::sentence('Jack', 'Jill');
+      
+      # emits "Jack, Jill, and Spot"
+      $name_list = Text::List::sentence('Jack', 'Jill', 'Spot');
+
+DESCRIPTION
+
+    This is a simple routine for converting a list into a properly
+    punctuated text string.
+
+AUTHOR
+
+    Robert Rothenberg <wlkngowl@unix.asb.com>
+
